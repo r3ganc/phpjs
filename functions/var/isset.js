@@ -19,7 +19,7 @@ function isset() {
   }
 
   while (i !== l) {
-    if (a[i] === undef || a[i] === null) {
+    if (a[i] === undef || a[i] === null || a[i] === '') {
       return false;
     }
     i++;
